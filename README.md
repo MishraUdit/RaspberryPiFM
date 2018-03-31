@@ -1,5 +1,6 @@
 # RaspberryPiFM
 establishment of fm radio for personal use using raspberry pi 3b.
+
 This program generates an FM modulation, with RDS (Radio Data System) data generated in real time. It can include monophonic or stereophonic audio.
 
 It is based on the FM transmitter created by [Oliver Mattos and Oskar Weigl](http://www.icrobotics.co.uk/wiki/index.php/Turning_the_Raspberry_Pi_Into_an_FM_Transmitter), and later adapted to using DMA by [Richard Hirst](https://github.com/richardghirst). Christophe Jacquet adapted it and added the RDS data generator and modulator. The transmitter uses the Raspberry Pi's PWM generator to produce VHF signals.
@@ -189,6 +190,4 @@ The samples are played by `pi_fm_rds.c` that is adapted from Richard Hirst's [Pi
 * 2014-04-14: new release that supports any sample rate for the audio input, and that can generate a proper FM-Stereo signal if a stereophonic input file is provided
 * 2014-04-06: initial release, which only supported 228 kHz monophonic audio input files
 
---------
-
-© [Christophe Jacquet](http://www.jacquet80.eu/) (F8FTK), 2014-2015. Released under the GNU GPL v3.
+-----------
